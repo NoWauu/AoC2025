@@ -1,5 +1,6 @@
 mod day01;
 mod day02;
+mod day03;
 
 fn main() {
     // Day 01
@@ -13,6 +14,11 @@ fn main() {
     println!("--- Day 02 ---");
     println!("Part 1: {}", day02::part1(day02_input));
     println!("Part 2: {}", day02::part2(day02_input));
+
+    let day03_input = include_str!("day03/input.txt");
+    println!("--- Day 03 ---");
+    println!("Part 1: {}", day03::part1(day03_input));
+    println!("Part 2: {}", day03::part2(day03_input));
 
 }
 
