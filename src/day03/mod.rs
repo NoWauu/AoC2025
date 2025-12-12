@@ -1,5 +1,5 @@
 
-pub fn part_1(input: &str) -> isize {
+pub fn part1(input: &str) -> isize {
     let lines: Vec<&str> = input.lines().collect();
 
     let mut total = 0;
