@@ -70,7 +70,7 @@ pub fn part2(input: &str) -> usize {
 
     let signs = lines.last().unwrap();
 
-    for i in (0..signs.len()).rev() {
+    for i in 0..signs.len() {
         println!("Processing column {}", i);
         let sign = signs[i];
         print!("Sign for {}th column: \"{}\"\n", i, sign);
